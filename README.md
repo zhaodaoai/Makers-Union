@@ -1,34 +1,41 @@
-# Webring
+# 网络指环 WebRing
 
-This [webring](https://wiki.xxiivv.com/webring) is an attempt to inspire artists & developers to create and maintain their own website and share traffic among each other. The webring's aim is to share hand-crafted websites such as **diaries, wikis & portfolios**. To add yourself to the ring, submit an [edit](https://github.com/XXIIVV/webring/edit/master/scripts/sites.js) to this repository.
+网络指环是 [WebRing](https://wiki.xxiivv.com/webring) 的衍生中文项目，试图激励开发者，设计师等创作者们创建自己的网站，分享自己的作品，并共享彼此的流量（访客在点击博主们的网络指环时会随机跳转到指环集合中的某一站点）。我们欢迎个人网站如博客，Wikis 等个人博客/作品展示站点的加入；）
 
-## Join the webring
+如果你想加入网络指环项目，且你的个人网站是中文的，请提交一个 [Pull Request](https://github.com/tvvocold/webring#如何加入网络指环) 。
 
-```
-<a href='https://webring.xxiivv.com/#random' target='_blank'><img src='https://webring.xxiivv.com/icon.black.svg'/></a>
-```
+如果你的个人网站是英文的，请提交到 [Webring 英文项目](https://github.com/XXIIVV/Webring#join-the-webring) 。
 
-- Add the webring icon to your website html.
-- Add your website information to the [sites.js](https://github.com/XXIIVV/webring/edit/master/scripts/sites.js) file. The `url` key is required, but you can also include `title`, `type`, `author`, `contact`, and `rss`.
-- Submit a Pull Request with **the location of the webring icon** on your site.
+如果你发现了有链接错误，请 [报告给我们](https://github.com/tvvocold/webring/issues/new)。
 
-Alternatively, if you your website has a dark background, use `icon.white.svg`. If your website is complaining about *https*, go ahead and host the icon yourself. **Single page websites, and websites acting only as portals to other social platforms, will be rejected**.
+## 如何加入网络指环？
 
-### Circular Linking
+0，确保你要提交的网站是个人网站，且非单页面网站或纯社交网络聚合站点。
 
-Instead of linking to the directory, you can also link to the next link in the ring by adding parts of your site or domain in the hash of the request url:
+1，添加网络指环图标到你的个人网站，可自行托管图标文件，或自定义 width 及 height：
 
 ```
-<a href='https://webring.xxiivv.com/#wiki.xxiivv' target='_blank' rel="noopener noreferrer"><img src='https://webring.xxiivv.com/icon.black.svg'/></a>
+<a href='https://webring.captainray.blog/#random' target='_blank'><img src='https://webring.captainray.blog/icon.black.svg' width="25" height="25"></a>
 ```
 
-## API
+2，Fork 本项目，添加你的网站信息到 [sites.js](https://github.com/tvvocold/webring/edit/master/scripts/sites.js) 文件。 `url` 值为必填，你可以选填 `title`, `type`, `author`, `contact`, 或 `rss`。
 
-This repository does not contain mature API capabilities, but there are a couple ways to request a list of sites and other information currently in the webring.
+3，提交一个 Pull Request，并在 PR 的描述中 **注明你的页面添加网络指环图标的位置**，并等待管理员合并。
 
-- Request [sites.js on xxiivv](https://webring.xxiivv.com/scripts/sites.js) or [sites.js on github](https://raw.githubusercontent.com/XXIIVV/webring/master/scripts/sites.js) and parse it. An example can be seen [here](https://gist.github.com/ckipp01/2ab7ac42e2837b4359efeb76eb49bb54).
-- If you'd like a already parsed list, [webring-checker.now.sh/sites](https://webring-checker.now.sh/sites) will return an json array of the site objects in the webring. See [webring-checker.now.sh](https://webring-checker.now.sh) for more info on what else is available.
+如果你的网站是黑色背景，可以选用 [`icon.white.svg`](https://webring.captainray.blog/icon.white.svg)。
 
-## Need Help?
+**单页面网站，纯社交网络聚合站点将被拒绝合并**
 
-The ring is managed by [@neauoire](https://twitter.com/neauoire), but any member of the network is also welcome to join this repository as a collaborator to help manage new links and Pull Requests. Read more [here](https://wiki.xxiivv.com/webring).
+
+### 循环链接
+
+如果你期望跳转到网络指环的下一个链接，可以通过在请求网址的 # 后添加你的网域，如：
+
+```
+<a href='https://webring.captainray.blog/#wiki.xxiivv' target='_blank' rel="noopener noreferrer"><img src='https://webring.captainray.blog/icon.white.svg' width="25" height="25"></a>
+```
+
+
+## 需要帮忙吗？
+
+Webring 英文项目由 [@neauoire](https://twitter.com/neauoire) 维护，中文版即网络指环项目由 [Ray](https://github.com/tvvocold) 维护，任何人都可以参与并贡献进来共同维护这个项目。
