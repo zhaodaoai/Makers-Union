@@ -1,9 +1,9 @@
 ---
-name: name.of.website
-about: Describe this issue template's purpose here.
+name: 报告一个网站链接错误
+about: 我在网络指环找到了一个链接错误
 
 ---
 
 ```
-Position of webring icon on site: ex: footer, header
+请输入该错误链接的 url
 ```
