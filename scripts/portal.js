@@ -7,11 +7,12 @@ function Portal (sites) {
   // Templates
 
   function _readme () {
-    return `<p class='readme'>网络指环是 <a href="https://github.com/XXIIVV/Webring" target='_blank'>WebRing</a> 的衍生中文项目，试图激励开发者，设计师等创作者们创建自己的网站，分享自己的作品，并共享彼此的流量（访客在点击博主们的网络指环时会随机跳转到以上网络指环集合中的某一站点）。我们欢迎个人博客，Wikis，或作品展示等站点的加入；）</p><br><p>如果你想加入网络指环项目，且你的个人网站是中文的，请提交一个 <a href='https://github.com/tvvocold/webring#如何加入网络指环' target='_blank'>Pull Request</a>。<p>如果你的个人网站是英文的，请提交 PR 到 <a href='https://github.com/XXIIVV/Webring#join-the-webring' target='_blank'>  Webring 英文项目</a>。<br /> 如果你发现了有链接错误，请 <a href='https://github.com/tvvocold/webring/issues/new' target='_blank'>报告给我们</a>。</p><br>`
+    return `<p class='readme'>SaaS 网络指环联盟是 <a href="https://zhaodao.ai" target='_blank'>找到AI</a> 发起的致力于发展中国本土的 SaaS 行业的流量共享项目，我们期望中国本土的 SaaS 网站可以共同“戴上” SaaS 网络指环，以共享彼此的流量（访客在点击联盟成员网站的网络指环按钮后，会随机跳转到联盟成员集合中的某一站点）。我们欢迎更多优质的中国本土 SaaS 供应商的加入；）</p><br>
+    <p>如果你所在的公司期望加入 SaaS 网络指环联盟，且拥有一个 SaaS 类型的网站，请提交一个 <a href='https://github.com/zhaodaoai/SaaS-WebRing#如何加入网络指环' target='_blank'>Pull Request</a>。<br> 如果你发现了有链接错误，请 <a href='https://github.com/zhaodaoai/SaaS-WebRing/issues/new/choose' target='_blank'>报告给我们</a>。</p><br>`
   }
 
   function _buttons () {
-    return `<p class='buttons'><a href='#random' onClick="portal.reload('random')">随机</a> | <a href='https://github.com/tvvocold/webring'>关于</a> <a id='icon'  href='#random' onClick="portal.reload('random')"></a></p>`
+    return `<p class='buttons'><a href='#random' onClick="portal.reload('random')">随机</a> | <a href='https://github.com/zhaodaoai/SaaS-WebRing/blob/master/README.md'>关于</a> <a id='icon'  href='#random' onClick="portal.reload('random')"></a></p>`
   }
 
   function _directory (sites) {
@@ -24,8 +25,8 @@ function Portal (sites) {
   }
 
   function _redirect (site) {
-    return `<p>欢迎来到网络指环，正在带你跳转到 <a href="${site.url}">${site.url}</a></p><meta http-equiv="refresh" content="3; url=${site.url}">
-    <p class='buttons'><a href='#' onClick="portal.reload('')">网络指环项目主页</a> | <a href='#${site.url}' onClick="portal.reload('random')">跳过</a> | <a href='#random' onClick="portal.reload('random')">随机</a> | <a href='https://github.com/tvvocold/webring'>GitHub</a> <a id='icon'  href='#random' onClick="portal.reload('random')"></a></p>`
+    return `<p>欢迎来到 SaaS 网络指环，这是一个网站流量共享项目，正在带你跳转到 <a href="${site.url}">${site.url}</a></p><meta http-equiv="refresh" content="3; url=${site.url}">
+    <br><p class='buttons'><a href='#' onClick="portal.reload('')">网络指环联盟</a> | <a href='#${site.url}' onClick="portal.reload('random')">跳过</a> | <a href='#random' onClick="portal.reload('random')">随机</a> | <a href='https://github.com/zhaodaoai/SaaS-WebRing/blob/master/README.md'>GitHub</a> <a id='icon'  href='#random' onClick="portal.reload('random')"></a></p>`
   }
 
   //
