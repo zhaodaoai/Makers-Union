@@ -27,10 +27,10 @@
 
 ### 循环链接（可选）
 
-如果你期望跳转到联盟指环的下一个链接，可以通过在请求网址的 # 后添加你的网域，如：
+如果你期望跳转到联盟指环的下一个链接，可以通过在请求网址的 # 后添加你的网站域名，如：
 
 ```
-<a href='https://union.zhaodao.ai/#wiki.xxiivv' target='_blank' rel="noopener noreferrer"><img src='https://union.zhaodao.ai/icon.white.svg' width="25" height="25"></a>
+<a href='https://union.zhaodao.ai/#zhaodao.ai' target='_blank' rel="noopener noreferrer"><img src='https://union.zhaodao.ai/icon.white.svg' width="25" height="25"></a>
 ```
 
 
