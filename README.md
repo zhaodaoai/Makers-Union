@@ -2,7 +2,7 @@
 
 [Makers Union - 创作者联盟](https://union.zhaodao.ai) 是 [找到AI](https://zhaodao.ai) 发起的致力于构建更加繁荣的互联网创作生态的流量共享项目，衍生于 [WebRing](https://wiki.xxiivv.com/webring) ，我们期望中国本土的创作者可以共同“戴上” Makers Union - 创作者联盟指环，以共享彼此的流量（访客在点击联盟成员网站的指环按钮后，会随机跳转到联盟成员集合中的某一站点）。欢迎更多优质的中国创作者加入我们的联盟；）
 
-如果你是一位创作者且拥有一个网站，请提交一个 [Pull Request](https://github.com/zhaodaoai/Makers-Union#如何加入创作者联盟) 。
+如果你是一位创作者且拥有一个网站，请提交一个 [Pull Request](https://github.com/zhaodaoai/Makers-Union#如何加入创作者联盟)，同时我们也欢迎任何可以帮助创作者创作的工具类、内容类的网站加入。
 
 如果你发现了有链接错误，请 [告知我们](https://github.com/zhaodaoai/Makers-Union/issues/new/choose)。
 
