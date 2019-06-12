@@ -5,7 +5,8 @@
 // {url:"https://abc.xyz", title:"此处输入网站名", type:"可选，此处输入网站类型", author:"可选，此处输入作者",contact:"可选，此处输入网站管理员邮箱", rss:"可选，此处输入网站 RSS"}
 
 const sites = [
-    {url:"https://zhaodao.ai", title:"找到AI", type:"AI SaaS", contact:"hi@zhaodao.ai", rss:"https://zhaodao.ai/rss"},
+    {url:"https://zhaodao.ai", title:"找到AI", type:"Website", contact:"hi@zhaodao.ai", rss:"https://zhaodao.ai/rss"},
     {url:"https://captainray.blog", title:"Dream architect", type:"Blog", author:"Ray", contact:"ray@zhaodao.ai", rss:"https://captainray.blog/feed.xml"},
     {url:"http://next.36kr.com", title:"NEXT", type:"Website", rss:"http://next.36kr.com/feed"},
+    {url:"https://modao.cc/", title:"墨刀", type:"Website"},
   ];
