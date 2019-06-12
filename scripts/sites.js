@@ -9,4 +9,5 @@ const sites = [
     {url:"https://captainray.blog", title:"Dream architect", type:"Blog", author:"Ray", contact:"ray@zhaodao.ai", rss:"https://captainray.blog/feed.xml"},
     {url:"http://next.36kr.com", title:"NEXT", type:"Website", rss:"http://next.36kr.com/feed"},
     {url:"https://modao.cc/", title:"墨刀", type:"Website"},
+    {url:"https://www.writeathon.cn", title:"Writeathon", type:"Website",contact:"achu@writeathon.cn"},
   ];
