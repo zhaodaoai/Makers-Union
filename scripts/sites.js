@@ -7,4 +7,5 @@
 const sites = [
     {url:"https://zhaodao.ai", title:"找到AI", type:"AI SaaS", contact:"hi@zhaodao.ai", rss:"https://zhaodao.ai/rss"},
     {url:"https://captainray.blog", title:"Dream architect", type:"Blog", author:"Ray", contact:"ray@zhaodao.ai", rss:"https://captainray.blog/feed.xml"},
+    {url:"http://next.36kr.com", title:"NEXT", type:"Website", rss:"http://next.36kr.com/feed"},
   ];
