@@ -3,6 +3,7 @@
 body { background:#f4f4f4; padding:0px; margin:0px; }
 body div { display:block; background: #111;min-height: calc(100vh - 60px);width: calc(100vw - 60px);margin: 15px;color: #333;padding: 15px;font-family:'PingFang SC', 'Microsoft YaHei','sans-serif',courier;font-size:11px; position: relative; border-radius: 2px; color:white;}
 body div #icon { display: block;width: 30px;height: 30px;background-image: url(../icon.white.svg);background-size: cover;background-repeat: no-repeat;position: absolute;bottom: 15px;right:15px;background-position: center;padding:0px }
+body div #footer {position: absolute;bottom: 15px;right:40px; }
 body div p { display:block; padding:0px 5px; line-height: 20px}
 body div p a { text-decoration: underline;}
 body div p a:hover { text-decoration: underline; }

@@ -7,12 +7,12 @@ function Portal (sites) {
   // Templates
 
   function _readme () {
-    return `<p class='readme'>Makers Union - 创作者联盟是 <a href="https://zhaodao.ai" target='_blank'>找到AI</a> 发起的致力于构建更加繁荣的互联网创作生态的流量共享项目，我们期望中国本土的创作者可以共同“戴上” Makers Union - 创作者联盟指环，以共享彼此的流量（访客在点击联盟成员网站的指环按钮后，会随机跳转到联盟成员集合中的某一站点）。欢迎更多优质的中国创作者加入我们的联盟；）</p><br>
-    <p>如果你是一位创作者且拥有一个网站，请提交一个 <a href='https://github.com/zhaodaoai/Makers-Union#如何加入创作者联盟' target='_blank'>Pull Request</a>。<br> 如果你发现了有链接错误，请 <a href='https://github.com/zhaodaoai/Makers-Union/issues/new/choose' target='_blank'>报告给我们</a>。</p><br>`
+    return ` <p class='readme'>Makers Union - 创作者联盟是 <a href="https://zhaodao.ai" target='_blank'>找到AI</a> 发起的致力于构建更加繁荣的互联网创作生态的流量共享项目，我们期望中国本土的创作者可以共同“戴上” Makers Union - 创作者联盟指环，以向大众分享彼此的流量、idea 和作品。欢迎更多优质的中国创作者加入我们的联盟；）</p><br>
+    <p>如果你是一位创作者且拥有一个网站，请提交一个 <a href='https://github.com/zhaodaoai/Makers-Union#如何加入创作者联盟' target='_blank'>Pull Request</a> 加入我们。<br> 如果你发现了有链接错误，请 <a href='https://github.com/zhaodaoai/Makers-Union/issues/new/choose' target='_blank'>报告</a> 给我们。</p><br>`
   }
 
   function _buttons () {
-    return `<p class='buttons'><a href='#random' onClick="portal.reload('random')">随机</a> | <a href='https://github.com/zhaodaoai/Makers-Union/blob/master/README.md'>关于</a> <a id='icon'  href='#random' onClick="portal.reload('random')"></a></p>`
+    return `<p class='buttons'><a href='#random' onClick="portal.reload('random')">随机</a> | <a href='https://github.com/zhaodaoai/Makers-Union/blob/master/README.md'>关于</a> <p id="footer"> Connecting the dots </p><a id='icon'  href='#random' onClick="portal.reload('random')"></a></p>`
   }
 
   function _directory (sites) {
