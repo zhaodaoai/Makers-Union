@@ -11,5 +11,6 @@ const sites = [
     {url:"https://modao.cc", title:"墨刀", type:"Website"},
     {url:"https://www.writeathon.cn", title:"Writeathon", type:"Website",contact:"achu@writeathon.cn"},
     {url:"https://www.d2daily.com", title:"D2 Daily | 今日前端", type:"Website", contact:"1711467488@qq.com", rss:"https://github.com/d2-projects/d2-daily/releases.atom"},
-    {url:"https://www.darmau.com", title:"城中村群租房", type:"Blog", author:"李大毛", rss:"https://www.darmau.com/rss/"}
+    {url:"https://www.darmau.com", title:"城中村群租房", type:"Blog", author:"李大毛", rss:"https://www.darmau.com/rss/"},
+    {url:"https://www.coderplanets.com", title:"coderplanets", type:"Website", author:"mydearxym", contact: "mydearxym@qq.com"}
   ];
