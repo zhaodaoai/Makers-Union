@@ -7,7 +7,7 @@ function Portal (sites) {
   // Templates
 
   function _readme () {
-    return ` <p class='readme'>Makers Union - 创作者联盟是 <a href="https://zhaodao.ai" target='_blank'>找到AI</a> 发起的致力于构建更加繁荣的互联网创作生态的流量共享项目，我们期望中国本土的创作者可以共同“戴上” Makers Union - 创作者联盟指环，以向大众分享彼此的流量、idea 和作品。欢迎更多优质的中国创作者加入我们的联盟；）</p><br>
+    return ` <p class='readme'>Makers Union - 创作者联盟是 <a href="https://zhaodao.ai" target='_blank'>找到AI</a> 发起的致力于构建更加繁荣的互联网创作生态的流量共享项目，我们期望中国本土的创作者可以共同“戴上” Makers Union - 创作者联盟指环，以向大众分享彼此的流量、idea 和作品。欢迎更多优秀的中国创作者加入我们的联盟；）</p><br>
     <p>如果你是一位创作者且拥有一个网站，请提交一个 <a href='https://github.com/zhaodaoai/Makers-Union#如何加入创作者联盟' target='_blank'>Pull Request</a> 加入我们。<br> 如果你发现了有链接错误，请 <a href='https://github.com/zhaodaoai/Makers-Union/issues/new/choose' target='_blank'>报告</a> 给我们。</p><br>`
   }
 
