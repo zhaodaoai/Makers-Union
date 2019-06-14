@@ -26,7 +26,7 @@ function Portal (sites) {
 
   function _redirect (site) {
     return `<p>欢迎来到 Makers Union - 创作者联盟，这是一个创作者网站流量共享项目，正在带你跳转到另一个创作者网站： <a href="${site.url}">${site.url}</a></p><meta http-equiv="refresh" content="3; url=${site.url}">
-    <br><p class='buttons'><a href='#' onClick="portal.reload('')">Makers Union - 创作者联盟主页</a> | <a href='#${site.url}' onClick="portal.reload('random')">跳过等待</a> | <a href='#random' onClick="portal.reload('random')">随机</a> | <a href='https://github.com/zhaodaoai/Makers-Union'>GitHub</a> <a id='icon'  href='#random' onClick="portal.reload('random')"></a></p>`
+    <br><p class='buttons'><a href='#' onClick="portal.reload('')">Makers Union - 创作者联盟主页</a> | <a href='#${site.url}' onClick="portal.reload('random')">跳过</a> | <a href='#random' onClick="portal.reload('random')">随机</a> | <a href='https://github.com/zhaodaoai/Makers-Union'>GitHub</a> <a id='icon'  href='#random' onClick="portal.reload('random')"></a></p>`
   }
 
   //
