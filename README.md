@@ -12,7 +12,7 @@
 
 0，确保你要提交的网站是发表创作的，包括但不限于书、博客、文章、电影、音乐、播客、软件、硬件等 [作品](https://zh.wikipedia.org/wiki/%E4%BD%9C%E5%93%81)。
 
-1，添加联盟指环图标到你的网站，可自行托管图标文件，或自定义 width 及 height：
+1，添加联盟指环图标到你的网站，示例代码如下。建议添加联盟图标到 footer 社交媒体位置，见 [示例](https://zhaodao.ai/p/62)。你也可自行托管图标文件，或自定义 width 及 height。
 
 > 如果你的网站是黑色背景，可以选用 [`icon.white.svg`](https://union.zhaodao.ai/icon.white.svg)。
 > 如果你的网站使用了阿里等矢量图标库，可以下载描边填充后的 [`makers-union.svg`](https://union.zhaodao.ai/makers-union.svg) 并上传到自己的图标库调用。
@@ -24,7 +24,7 @@
 
 2，Fork 本项目，添加你的网站信息到 [sites.js](https://github.com/zhaodaoai/Makers-Union/edit/master/scripts/sites.js) 文件。 `url` 值为必填，你可以选填 `title`, `type`, `author`, `contact`, 或 `rss`。
 
-3，提交一个 Pull Request，并在 PR 的描述中 **注明你的页面添加网络指环图标的位置**，并等待管理员合并。
+3，提交一个 Pull Request，并在 PR 的描述中 **注明你的页面添加网络指环图标的位置**，并等待管理员合并。（本项目使用 GitHub Pages 服务托管，在管理员合并你的代码后，一般会在 10min 左右更新上线） 
 
 
 **单页面网站，纯社交网络聚合站点将被拒绝合并**
