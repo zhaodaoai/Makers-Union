@@ -7,7 +7,6 @@
 const sites = [
     {url:"https://zhaodao.ai", title:"找到AI", type:"Website", contact:"hi@zhaodao.ai", rss:"https://zhaodao.ai/rss"},
     {url:"https://captainray.blog", title:"Dream architect", type:"Blog", author:"Ray", contact:"ray@zhaodao.ai", rss:"https://captainray.blog/feed.xml"},
-    {url:"http://next.36kr.com", title:"NEXT", type:"Website", rss:"http://next.36kr.com/feed"},
     {url:"https://modao.cc", title:"墨刀", type:"Website"},
     {url:"https://www.writeathon.cn", title:"Writeathon", type:"Website",contact:"achu@writeathon.cn"},
     {url:"https://www.d2daily.com", title:"D2 Daily | 今日前端", type:"Website", contact:"1711467488@qq.com", rss:"https://github.com/d2-projects/d2-daily/releases.atom"},
