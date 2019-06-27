@@ -14,5 +14,5 @@ const sites = [
     {url:"https://www.coderplanets.com", title:"coderplanets", type:"Website", author:"mydearxym", contact: "mydearxym@qq.com"},
     {url:"https://mianbaoduo.com", title:"面包多", type:"Website", author:"dk", contact: "dk@niucodata.com"},
     {url:"https://www.barretlee.com", title:"小胡子哥的个人网站", type:"Website", author:"barretlee", contact: "barret.china@gmail.com"},
-    {url:"https://yulinfeng.cnblogs.com", title:"CoderBuff", type:"WebSite", author:"OKevin", contact:"hellobug@outlook.com"}
+    {url:"https://yulinfeng.cnblogs.com", title:"CoderBuff", type:"WebSite", author:"OKevin", contact:"hellobug@outlook.com"},
   ];
