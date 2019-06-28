@@ -15,4 +15,5 @@ const sites = [
     {url:"https://mianbaoduo.com", title:"面包多", type:"Website", author:"dk", contact: "dk@niucodata.com"},
     {url:"https://www.barretlee.com", title:"小胡子哥的个人网站", type:"Website", author:"barretlee", contact: "barret.china@gmail.com"},
     {url:"https://yulinfeng.cnblogs.com", title:"CoderBuff", type:"WebSite", author:"OKevin", contact:"hellobug@outlook.com"},
+    {url:"https://hufangyun.com", title:"小猿大圣的博客", type:"WebSite", author:"Youthink", contact:"hufy78@gmail.com", rss:"https://hufangyun.com/atom.xml"},
   ];
