@@ -16,4 +16,5 @@ const sites = [
     {url:"https://www.barretlee.com", title:"小胡子哥的个人网站", type:"Website", author:"barretlee", contact: "barret.china@gmail.com"},
     {url:"https://yulinfeng.cnblogs.com", title:"CoderBuff", type:"WebSite", author:"OKevin", contact:"hellobug@outlook.com"},
     {url:"https://hufangyun.com", title:"小猿大圣的博客", type:"WebSite", author:"Youthink", contact:"hufy78@gmail.com", rss:"https://hufangyun.com/atom.xml"},
-  ];
+    {url:"https://blog.t9t.io", title:"Transparent Startups", type:"WebSite", author:"timqian", contact:"timqian92@gmail.com", rss:"https://blog.t9t.io/atom.xml"},
+];
