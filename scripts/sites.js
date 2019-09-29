@@ -17,4 +17,5 @@ const sites = [
     {url:"https://yulinfeng.cnblogs.com", title:"CoderBuff", type:"WebSite", author:"OKevin", contact:"hellobug@outlook.com"},
     {url:"https://hufangyun.com", title:"小猿大圣的博客", type:"WebSite", author:"Youthink", contact:"hufy78@gmail.com", rss:"https://hufangyun.com/atom.xml"},
     {url:"https://blog.t9t.io", title:"Transparent Startups", type:"WebSite", author:"timqian", contact:"timqian92@gmail.com", rss:"https://blog.t9t.io/atom.xml"},
+    {url:"https://indiehackers.net", title:"独立开发者", type:"WebSite", author:"cmlanche", contact:"cmlanche@gmail.com", rss:"https://indiehackers.net/topics/feed"},
 ];
