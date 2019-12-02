@@ -20,5 +20,3 @@ const sites = [
     {url:"https://indiehackers.net", title:"独立开发者", type:"WebSite", author:"cmlanche", contact:"cmlanche@gmail.com", rss:"https://indiehackers.net/topics/feed"},
     {url:"https://hiwannz.com/", title:"见字如面", type:"WebSite", author:"wannz", contact:"infante4@foxmail", rss:"https://hiwannz.com/feed"},
 ];
-
-];
