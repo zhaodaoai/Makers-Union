@@ -6,13 +6,13 @@
 
 const sites = [
     {url:"https://zhaodao.ai", title:"找到AI", type:"Website", contact:"hi@zhaodao.ai", rss:"https://zhaodao.ai/rss"},
-    {url:"https://captainray.blog", title:"Dream architect", type:"Blog", author:"Ray", contact:"ray@zhaodao.ai", rss:"https://captainray.blog/feed.xml"},
+    {url:"https://capray.blog", title:"Bug Fixer", type:"Blog", author:"Ray", contact:"ray@zhaodao.ai", rss:"https://capray.blog/feed.xml"},
     {url:"https://modao.cc/map", title:"墨刀", type:"Website"},
     {url:"https://www.writeathon.cn", title:"Writeathon", type:"Website",contact:"achu@writeathon.cn"},
     {url:"https://www.darmau.com", title:"城中村群租房", type:"Blog", author:"李大毛", rss:"https://www.darmau.com/rss/"},
-    {url:"https://www.coderplanets.com", title:"coderplanets", type:"Website", author:"mydearxym", contact: "mydearxym@qq.com"},
+    {url:"https://coderplanets.com", title:"coderplanets", type:"Website", author:"mydearxym", contact: "mydearxym@qq.com"},
     {url:"https://mianbaoduo.com", title:"面包多", type:"Website", author:"dk", contact: "dk@niucodata.com"},
-    {url:"https://www.barretlee.com", title:"小胡子哥的个人网站", type:"Website", author:"barretlee", contact: "barret.china@gmail.com"},
+    {url:"https://www.barretlee.com/entry/", title:"小胡子哥的个人网站", type:"Website", author:"barretlee", contact: "barret.china@gmail.com"},
     {url:"https://yulinfeng.cnblogs.com", title:"CoderBuff", type:"WebSite", author:"OKevin", contact:"hellobug@outlook.com"},
     {url:"https://hufangyun.com", title:"小猿大圣的博客", type:"WebSite", author:"Youthink", contact:"hufy78@gmail.com", rss:"https://hufangyun.com/atom.xml"},
     {url:"https://blog.t9t.io", title:"Transparent Startups", type:"WebSite", author:"timqian", contact:"timqian92@gmail.com", rss:"https://blog.t9t.io/atom.xml"},
