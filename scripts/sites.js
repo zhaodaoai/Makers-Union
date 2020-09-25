@@ -15,7 +15,6 @@ const sites = [
     {url:"https://www.barretlee.com/entry/", title:"小胡子哥的个人网站", type:"Website", author:"barretlee", contact: "barret.china@gmail.com"},
     {url:"https://yulinfeng.cnblogs.com", title:"CoderBuff", type:"WebSite", author:"OKevin", contact:"hellobug@outlook.com"},
     {url:"https://hufangyun.com", title:"小猿大圣的博客", type:"WebSite", author:"Youthink", contact:"hufy78@gmail.com", rss:"https://hufangyun.com/atom.xml"},
-    {url:"https://blog.t9t.io", title:"Transparent Startups", type:"WebSite", author:"timqian", contact:"timqian92@gmail.com", rss:"https://blog.t9t.io/atom.xml"},
     {url:"https://indiehackers.net", title:"独立开发者", type:"WebSite", author:"cmlanche", contact:"cmlanche@gmail.com", rss:"https://indiehackers.net/topics/feed"},
     {url:"https://hiwannz.com/", title:"见字如面", type:"WebSite", author:"wannz", contact:"infante4@foxmail", rss:"https://hiwannz.com/feed"},
     {url:"https://www.ouorz.com", title:"TonyHe 的博客", type:"WebSite", author:"TonyHe", contact:"quickbrown_fox@outlook.com", rss:"https://blog.ouorz.com/feed"},
