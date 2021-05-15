@@ -18,4 +18,5 @@ const sites = [
     {url:"https://indiehackers.net", title:"独立开发者", type:"WebSite", author:"cmlanche", contact:"cmlanche@gmail.com", rss:"https://indiehackers.net/topics/feed"},
     {url:"https://hiwannz.com/", title:"见字如面", type:"WebSite", author:"wannz", contact:"infante4@foxmail", rss:"https://hiwannz.com/feed"},
     {url:"https://www.ouorz.com", title:"TonyHe 的博客", type:"WebSite", author:"TonyHe", contact:"quickbrown_fox@outlook.com", rss:"https://blog.ouorz.com/feed"},
+    {url:"https://blog.dtnetwork.top/", title:"鼎天网络博客", type:"Website", contact:"admin@dtnetwork.top", rss:"https://blog.dtnetwork.top/atom.xml"},
 ];
