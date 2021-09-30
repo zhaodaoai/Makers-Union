@@ -19,4 +19,5 @@ const sites = [
     {url:"https://hiwannz.com/", title:"见字如面", type:"WebSite", author:"wannz", contact:"infante4@foxmail", rss:"https://hiwannz.com/feed"},
     {url:"https://www.ouorz.com", title:"TonyHe 的博客", type:"WebSite", author:"TonyHe", contact:"quickbrown_fox@outlook.com", rss:"https://blog.ouorz.com/feed"},
     {url:"https://jike.xyz", title:"极客", type:"WebSite", author:"Hosea", contact:"hosea@hsu.pw"},
+    {url:"https://blog.dtnetwork.top/", title:"鼎天网络博客", type:"WebSite", author:"DTnetwork", contact:"Gary@dtnetwork.top", rss:"https://blog.dtnetwork.top/atom.xml"},
 ];
