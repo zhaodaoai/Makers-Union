@@ -9,7 +9,6 @@ const sites = [
     {url:"https://capray.blog", title:"Bug Fixer", type:"Blog", author:"Ray", contact:"ray@zhaodao.ai", rss:"https://capray.blog/feed.xml"},
     {url:"https://modao.cc/map", title:"墨刀", type:"Website"},
     {url:"https://www.writeathon.cn", title:"Writeathon", type:"Website",contact:"achu@writeathon.cn"},
-    {url:"https://www.darmau.com", title:"城中村群租房", type:"Blog", author:"李大毛", rss:"https://www.darmau.com/rss/"},
     {url:"https://coderplanets.com", title:"coderplanets", type:"Website", author:"mydearxym", contact: "mydearxym@qq.com"},
     {url:"https://mianbaoduo.com", title:"面包多", type:"Website", author:"dk", contact: "dk@niucodata.com"},
     {url:"https://www.barretlee.com/entry/", title:"小胡子哥的个人网站", type:"Website", author:"barretlee", contact: "barret.china@gmail.com"},
